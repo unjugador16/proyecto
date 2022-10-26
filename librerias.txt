@@ -1,0 +1,4 @@
+pip install opencv-python==4.5.5.62
+pip install pyserial (3.5)
+pip install gTTS (2.2.4)
+pip install playsound==1.2.2
