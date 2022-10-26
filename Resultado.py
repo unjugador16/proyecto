@@ -33,14 +33,14 @@ while True:
         print(str(cad) + " centímetros")
         playsound('audio.mp3')
         while cad > 100:
-            cap = cv2.VideoCapture('C:\\Users\\loque\\Documents\\GitHub\\proyecto\\videos\\num100.mp4')
+            cap = cv2.VideoCapture('C:\\proyecto\\videos\\num100.mp4')
             video()
             cad -= 100
 
         if cad <= 100:
-            cap = cv2.VideoCapture('C:\\Users\\loque\\Documents\\GitHub\\proyecto\\videos\\num' + str(cad) + '.mp4')
+            cap = cv2.VideoCapture('C:\\proyecto\\videos\\num' + str(cad) + '.mp4')
             video()
-        cap = cv2.VideoCapture('C:\\Users\\loque\\Documents\\GitHub\\proyecto\\videos\\cm.mp4')
+        cap = cv2.VideoCapture('C:\\proyecto\\videos\\cm.mp4')
         video()
     else:
         print('El RUDE no pudo detectar una superficie')
